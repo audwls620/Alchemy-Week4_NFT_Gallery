@@ -1,7 +1,7 @@
 import React from 'react'
 
 const styles = {
-  navBar: 'mx-auto mt-7 flex w-1/4 justify-center',
+  navBar: 'mx-auto mt-7 flex w-2/4 justify-center',
   activePageNumber: 'text-gray-200',
   pageNumber: 'text-gray-500 ',
   numberContainer:

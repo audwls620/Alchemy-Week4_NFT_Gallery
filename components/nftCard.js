@@ -11,7 +11,7 @@ const styles = {
     'mt-2 mb-2 ml-2 cursor-pointer rounded-xl border-2 py-3 px-4 font-bold text-gray-100 hover:text-gray-400 hover:border-gray-400 active:bg-gray-600',
 }
 const nftCard = ({ nft }) => {
-  console.log(nft)
+  // console.log(nft)
   const addressCopyHandler = () => {
     const copyAddress = nft.contract.address.slice()
     return copyAddress
