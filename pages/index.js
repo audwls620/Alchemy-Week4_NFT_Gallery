@@ -64,7 +64,7 @@ const Home = () => {
         return response.data
       }
 
-      let startToken = '10000'
+      let startToken = '19000'
       let hasNextPage = true
       let totalNftsFound = 0
       while (hasNextPage) {
