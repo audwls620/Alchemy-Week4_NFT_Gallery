@@ -64,7 +64,7 @@ const Home = () => {
         return response.data
       }
 
-      let startToken = '19000'
+      let startToken = '1000'
       let hasNextPage = true
       let totalNftsFound = 0
       while (hasNextPage) {
@@ -83,11 +83,13 @@ const Home = () => {
           type: 'add',
           data: nfts,
         })
+        console.log(nfts)
       }
     }
     if (state) {
       console.log('NFTs in collection', state)
       setNFTs(state)
+      console.log(state)
     }
   }
 
